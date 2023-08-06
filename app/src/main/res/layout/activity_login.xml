@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Student Details"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="450dp"
+                    android:padding="20dp">
+
+                    <ImageView
+                        android:id="@+id/im1"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="50dp"
+                        android:src="@drawable/ic_baseline_directions_bus_24" />
+                    <TextView
+                        android:id="@+id/studname11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Shubham Kakhekar"
+                        android:textColor="@color/black"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@id/im1"
+                        android:fontFamily="sans-serif-black"
+                        android:includeFontPadding="false"
+                        android:textSize="30dp"/>
+                    <TextView
+                        android:id="@+id/prn11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/studname11"
+                        android:text="1910014"
+                        android:textColor="#757575"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@id/im1"
+                        android:textSize="20dp"/>
+                    <TextView
+                        android:id="@+id/year11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/prn11"
+                        android:text="CSIT"
+                        android:textColor="#757575"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@id/im1"
+                        android:textSize="20dp"/>
+                    <TextView
+                        android:id="@+id/dept11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/year11"
+                        android:text="Final Year"
+                        android:textColor="#757575"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@id/im1"
+                        android:textSize="20dp"/>
+                    <TextView
+                        android:id="@+id/busno11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/dept11"
+                        android:text="Bus No:"
+                        android:textColor="#757575"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@id/im1"
+                        android:textSize="20dp"/>
+
+
+
+                </RelativeLayout>
+
+            <Button
+                android:id="@+id/track_btn"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="45dp"
+                android:backgroundTint="@color/orange"
+
+                android:text="TRACK"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:cornerRadius="15dp" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

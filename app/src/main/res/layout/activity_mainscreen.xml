@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Mainscreen"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imgMainScreen"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/mainscreenimage"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="BUS TRACKING SYSTEM"
+
+            android:textAlignment="center"
+            android:textColor="@color/black"
+
+
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/studentlog"
+            android:layout_width="match_parent"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Student Login"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="15dp" />
+
+        <Button
+            android:id="@+id/adminlog"
+            android:layout_width="match_parent"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Admin Login"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="15dp" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

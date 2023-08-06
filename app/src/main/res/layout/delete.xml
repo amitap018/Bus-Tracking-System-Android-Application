@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#F8FFDB">
+
+    <TextView
+        android:id="@+id/view_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Delete Data"
+        android:textColor="#E9850F"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/enter_dprn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/view_data"
+        android:layout_marginTop="15dp"
+        android:hint="Enter PRN"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btn_dclose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enter_dprn"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="43dp"
+        android:text="Close" />
+
+    <Button
+        android:id="@+id/btn_dok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enter_dprn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="69dp"
+        android:text="Delete" />
+
+</RelativeLayout>
